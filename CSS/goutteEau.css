@@ -1,0 +1,92 @@
+@keyframes chute{
+    0%{
+        top : 10px;
+    }
+    69%{
+        opacity:1;
+    }
+    70%{
+        top : 50%;
+        opacity: 0;
+    }
+    100%{
+        top: 50%;
+        opacity: 0;
+    }
+}
+@keyframes onde1{
+    0%{
+        opacity : 0;
+    }
+    69%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+@keyframes onde2{
+    0%{
+        opacity : 0;
+    }
+    69%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+@keyframes onde3{
+    0%{
+        opacity : 0;
+    }
+    69%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform : scale(3);
+    }
+}
+.eau{
+    top : 100px;
+    left : 50%;
+    margin-left:-25px;
+    position: absolute;
+    width: 50px;
+    height : 50px;
+    border-radius: 50%;
+    background: blue;
+    animation: chute 2s ease infinite;
+}
+.onde{
+    opacity: 0;
+    width : 90px;
+    height : 50px;
+    position: absolute;
+    top : 50%;
+    border: 2px solid blue;
+    left : calc(50% - 45px);
+    border-radius: 50%;
+}
+.onde1{
+    animation: onde1 2s ease infinite;
+}
+.onde2{
+    animation: onde2 2s ease infinite;
+}
+.onde3{
+    animation: onde3 2s ease infinite;
+}
+
