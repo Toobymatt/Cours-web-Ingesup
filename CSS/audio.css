@@ -1,3 +1,28 @@
+.backgroundImg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/e/ec/Record-Album-02.jpg') no-repeat;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-background-size:cover;
+    background-size: cover;
+    -webkit-filter:blur(5px);
+    -moz-filter:blur(5px);
+    -o-filter:blur(5px);
+    -ms-filter:blur(5px);
+    filter:blur(5px);
+}
+.contenuSite{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
 #play{
     width: 0;
     height: 0;
