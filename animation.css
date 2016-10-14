@@ -1,0 +1,55 @@
+@keyframes go {
+    0% {
+        top : 10px; 
+        right: 10px;
+        background : blue;
+        transform: rotate(90deg);
+    }
+    25%{
+        top : 10px;
+        right : 400px;
+        background : red;
+        transform: rotate(180deg);
+    }
+    50% {
+        top : 400px; 
+        right: 400px; 
+        background : yellow;
+        transform: rotate(270deg);
+    }
+    75%{
+        top : 400px;
+        right : 10px;
+        background : green;
+        transform: rotate(360deg);
+    }
+}
+
+.move {
+    width: 200px; 
+    height: 200px; 
+    background: #ff99d8; 
+    transition: all 2s ease ;
+    animation: go 5s linear infinite;
+}
+
+.move:hover {
+    background: yellow;
+}
+
+.move1 {
+    background: #0acc44; 
+}
+
+.move2 {
+    position: absolute;
+    background: #0909f7; 
+    right: 10px; 
+    top: 10px;
+}
+
+.move2:hover {
+    right: 50px;
+}
+
+
