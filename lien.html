@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>Formulaire</title>
+    </head>
+    <body id="bodyPage2">
+        <!--Formulaire-->
+        <form action="#" method="get">
+            <br>
+            <label for="name">Nom :</label>
+            <input type="text" name="name" id="name" value="NOM" class="border" readonly><!--readonly rend le champ non modifiable-->
+            <br>
+            <br>
+            <input type="email" name="email" placeholder="Email" class="border" required><!--required rend le champ obligatoire-->
+            <br>
+            <br>
+            <input type="password" name="password" placeholder="Mot de passe" class="border">
+            <br>
+            <br>
+            <label>
+                <input type="checkbox" name="checkbox[]" value="Checkbox" checked>Checkbox
+                <input type="checkbox" name="checkbox[]" value="Checkbox2">Checkbox2
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="radio" value="Radio" >Radio
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="radio" value="Radio2">Radio2
+            </label>
+            <br>
+            <br>
+            <textarea name="message" id="textarea" cols="50" rows="20"></textarea>
+            <br>
+            <br>
+            <select name="age" id="age">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Envoie</button>
+        </form>
+
+
+
+
+
+    </body>
+</html>
