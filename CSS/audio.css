@@ -1,7 +1,33 @@
 body {
     font-family: "Cambria", Arial, sans-serif;
 }
+.backgroundImg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
 
+  display: block;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ec/Record-Album-02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  width: 100%;
+  height: 655px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.contenuSite {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 #divPlayer {
     width: 300px;
     margin-left: auto;
