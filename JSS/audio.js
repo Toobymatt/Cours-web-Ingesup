@@ -22,7 +22,7 @@ function formatTime(time) {
     var mins = Math.floor((time % 3600) / 60);
     var secs = Math.floor(time % 60);
     if (secs < 10) {
-        secs = "0" + mins;
+        secs = "0" + secs;
     }
     if (hours) {
         if (mins < 10) {
